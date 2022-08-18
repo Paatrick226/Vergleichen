@@ -51,7 +51,7 @@ namespace Vergleichen
             if(firstNotSecond.Count != 0)
             {
                 Console.WriteLine("ungleich!!");
-                Console.WriteLine("Daten in Lise 1 nicht in Liste 2:");
+                Console.WriteLine("Daten in Liste 1 nicht in Liste 2:");
                 foreach (string x in firstNotSecond)
                 {
                     Console.WriteLine(x);
